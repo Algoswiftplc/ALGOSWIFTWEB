@@ -198,6 +198,7 @@ nav {
     flex-direction: column;
     height: 200px;
     justify-content: space-around;
+    padding-top: 50px;
 }
 
 .upperside {
@@ -209,12 +210,10 @@ nav {
 .sec {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-start;
     margin-top: 40px;
 }
-
-.sec {}
 
 .sec i {
     float: left;
