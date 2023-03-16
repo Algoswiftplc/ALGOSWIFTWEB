@@ -184,6 +184,68 @@ nav {
 }
 
 
+/*service page styling */
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+    width: 100%;
+}
+
+.headr {
+    align-self: center;
+    font-weight: 200px;
+}
+
+.headr h1 {
+    font-weight: bolder;
+}
+
+.serv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: ;
+    height: 400px;
+    width: 70%;
+    border:
+}
+
+.crd1 {
+    height: ;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.crd1 p {
+    align-self: center;
+    font-size: small;
+    align-content: center;
+    align-self: center;
+    margin: 20px;
+}
+
+.crd1 h4 {
+    align-self: center;
+    font-weight: 100;
+    align-content: center;
+    margin: 20px;
+    color: var(--orange);
+}
+
+
+/*end of serive page */
+
+
 /*footer styling */
 
 .bottom {
@@ -196,7 +258,7 @@ nav {
     text-align: center;
     display: flex;
     flex-direction: column;
-    height: 200px;
+    height: 350px;
     justify-content: space-around;
     padding-top: 50px;
 }
@@ -219,17 +281,20 @@ nav {
     float: left;
 }
 
+.sec i a {
+    text-decoration: none;
+    color: var(--black);
+    margin-left: 3px;
+}
+
 .sec img {
     height: 60px;
     width: 60px;
+    align-self: center;
 }
 
-.lower {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: var(--orange);
+.sec p {
+    align-self: center;
 }
 
 .chat {
@@ -259,4 +324,55 @@ nav {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+
+.CT i a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.lower {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--orange);
+}
+
+.btnn {
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 30px;
+    width: 25%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnn h6 {
+    font-weight: bolder;
+    align-self: center;
+    font-size: small;
+    margin-top: 10px;
+}
+
+.socialmedia {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+    flex-direction: row;
+}
+
+.socialmedia {
+    color: var(--black);
+}
+
+.socialmedia i a {
+    text-decoration: none;
+    color: var(--orange);
+    margin-left: 10px;
+    margin-right: 10px;
 }
