@@ -249,7 +249,7 @@ nav {
 /*footer styling */
 
 .bottom {
-    position: sticky;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -337,6 +337,7 @@ nav {
     justify-content: center;
     flex-direction: column;
     color: var(--orange);
+    padding-top: 30px;
 }
 
 .btnn {
