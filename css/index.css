@@ -208,14 +208,11 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: ;
     height: 400px;
     width: 70%;
-    border:
 }
 
 .crd1 {
-    height: ;
     width: 330px;
     display: flex;
     flex-direction: column;
