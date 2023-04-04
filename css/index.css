@@ -1,4 +1,4 @@
-<<<<<<< HEAD :root {
+:root {
     --orange: #fc6a03;
     --white: #ffff;
     --black: #000;
@@ -174,21 +174,72 @@ nav {
     border-radius: 10px;
 }
 
-.aboutussection {
+
+/*why us section */
+
+.whyus {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 700px;
+    height: 80vh;
     background-color: #fc6a03;
-    color: aliceblue;
+    color: white;
     width: 100%;
-    margin-bottom: 90px;
+    margin-top: 40px;
+    margin-bottom: 100px;
 }
+
+.whyus h1 {
+    margin-top: 50px;
+    align-self: center;
+    font-weight: bolder;
+}
+
+.why {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.usdescritption {
+    height: 300px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    justify-content: center;
+}
+
+.usdescritption i {
+    align-self: center;
+    margin: 30px;
+}
+
+.usdescritption h3 {
+    font-weight: bold;
+    font-size: larger;
+    align-self: center;
+}
+
+.usdescritption p {
+    font-size: small;
+    align-self: center;
+}
+
+
+/* end of why us section */
 
 .header {
     align-self: center;
     display: flex;
     flex-direction: column;
+}
+
+.hr {
+    align-self: center;
+    border: 2px solid white;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .blg {
