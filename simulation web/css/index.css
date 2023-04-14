@@ -1,815 +1,815 @@
-                                            :root {
-                                               --orange: #fc6a03;
-                                               --white: #ffff;
-                                               --black: #000;
-                                               --backround1: grey;
-                                               --shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
-                                               --lightorange: #FBCEB1;
-                                               --dullorange: #FF7F50;
-                                           }
-                                           
-                                           @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-                                           * {
-                                               margin: 0;
-                                               padding: 0;
-                                               box-sizing: border-box;
-                                               font-family: 'Poppins', sans-serif;
-                                               scroll-behavior: smooth;
-                                           }
-                                           /*test*/
-                                           /*end of test */
-                                           
-                                           body {
-                                               display: flex;
-                                               flex-direction: column;
-                                               align-items: center;
-                                               justify-content: center;
-                                           }
-                                           
-                                           nav {
-                                               top: 0 px;
-                                               left: 0px;
-                                               display: flex;
-                                               flex-direction: row;
-                                               justify-content: center;
-                                               align-items: center;
-                                               background-color: transparent;
-                                               width: 100%;
-                                               padding: 10px;
-                                               z-index: 1;
-                                               margin-top: 30px;
-                                           }
-                                           
-                                           .logo {
-                                               font-size: 25px;
-                                               font-weight: bold;
-                                               color: var(--orange);
-                                               display: flex;
-                                               flex-direction: row;
-                                               justify-content: center;
-                                               align-items: center;
-                                               align-content: center;
-                                               margin-right: 50px;
-                                               padding-right: 40px;
-                                           }
-                                           
-                                           .logo img {
-                                               height: 50PX;
-                                               width: 50PX;
-                                               margin-right: 90px;
-                                           }
-                                           
-                                           .navb {
-                                               float: right;
-                                               list-style-type: none;
-                                               display: flex;
-                                               justify-content: center;
-                                               align-items: center;
-                                               background-color: transparent;
-                                           }
-                                           
-                                           .navb li {
-                                               display: inline-block;
-                                               margin-left: 20px;
-                                               background-color: transparent;
-                                           }
-                                           
-                                           .navb li a {
-                                               color: var(--orange);
-                                               text-decoration: none;
-                                               font-size: 25px;
-                                               background-color: transparent;
-                                           }
-                                           
-                                           .navb li a:hover {
-                                               text-decoration: underline;
-                                               transition: 5sec ease-in;
-                                           }
-                                           /*body caption*/
-                                           
-                                           .caption {
-                                               width: 100%;
-                                               background-color: var(--white);
-                                               height: 500px;
-                                               display: flex;
-                                               flex-direction: row;
-                                               justify-content: center;
-                                               align-items: center;
-                                           }
-                                           
-                                           .textc {
-                                               display: flex;
-                                               flex-direction: row;
-                                               align-items: center;
-                                           }
-                                           
-                                           .h {
-                                               color: rgb(255, 255, 255);
-                                               font-size: larger;
-                                               background-color: var(--white);
-                                           }
-                                           
-                                           .aboutus {
-                                               background-color: var(--orange);
-                                               display: flex;
-                                               flex-direction: row;
-                                               height: 400px;
-                                           }
-                                           
-                                           .imageh {
-                                               height: 100px;
-                                               width: 100px;
-                                           }
-                                           /*service */
-                                           
-                                           .services {
-                                               height: 400px;
-                                               width: 100%;
-                                               display: flex;
-                                               flex-direction: row;
-                                               justify-content: center;
-                                               flex-wrap: wrap;
-                                               align-items: center;
-                                           }
-                                           
-                                           .container-xl {
-                                               margin-top: 50px;
-                                               margin-bottom: 50px;
-                                           }
-                                           
-                                           .sc {
-                                               height: 300px;
-                                               width: 300px;
-                                               background-color: #fc6a03;
-                                               margin: 10px;
-                                               border-radius: 20px;
-                                               display: flex;
-                                               align-items: center;
-                                               flex-wrap: wrap;
-                                               justify-content: center;
-                                           }
-                                           
-                                           .sc h5 {
-                                               margin: 30px;
-                                               color: aliceblue;
-                                               align-items: center;
-                                           }
-                                           
-                                           .service {
-                                               display: flex;
-                                               flex-direction: column;
-                                               align-items: center;
-                                               justify-content: center;
-                                               color: var(--orange);
-                                               border-radius: 10px;
-                                           }
-                                           
-                                           .header {
-                                               align-self: center;
-                                               display: flex;
-                                               flex-direction: column;
-                                           }
-                                           
-                                           .blg img {
-                                               height: 100px;
-                                               width: 100px;
-                                           }
-                                           
-                                           .txt {
-                                               display: flex;
-                                               flex-direction: column;
-                                           }
-                                           
-                                           .txt1 h3 {
-                                               font-size: medium;
-                                               font-weight: bolder;
-                                               color: white;
-                                           }
-                                           
-                                           .txt p {
-                                               font-size: smaller;
-                                               color: white;
-                                           }
-                                           /*styling mid */
-                                           
-                                           .vission {
-                                               width: 100%;
-                                               display: flex;
-                                               flex-direction: column;
-                                               justify-content: center;
-                                               height: 400px;
-                                               align-items: center;
-                                           }
-                                           
-                                           .stat {
-                                               font-weight: bolder;
-                                               font-size: 4rems;
-                                               color: orangered;
-                                           }
-                                           
-                                           .cover {
-                                               display: flex;
-                                               flex-direction: row;
-                                               align-items: center;
-                                           }
-                                           
-                                           .firstdesc {
-                                               height: 300px;
-                                               width: 450px;
-                                               display: flex;
-                                               flex-direction: column;
-                                               align-items: center;
-                                               background-color: white;
-                                               color: black;
-                                               margin: 25px;
-                                               border-radius: 5px;
-                                               /*border: 0.9px solid black;*/
-                                               box-shadow: 0px 0px 10px rgba(46, 45, 45, 0.3);
-                                           }
-                                           
-                                           .firstdesc i {
-                                               height: 100px;
-                                               width: 100px;
-                                               margin-top: 30px;
-                                               align-self: center;
-                                           }
-                                           
-                                           .firstdesc p {
-                                               margin-bottom: 20px;
-                                               margin-left: 20px;
-                                               margin-right: 20px;
-                                               font-size: smaller;
-                                           }
-                                           /*end of styling second mid */
-                                           /*our team*/
-                                           
-                                           .team {
-                                               width: 100%;
-                                               display: flex;
-                                               flex-direction: column;
-                                               justify-content: center;
-                                               height: 100vh;
-                                               align-items: center;
-                                               margin-top: 200px;
-                                               flex-wrap: wrap;
-                                           }
-                                           
-                                           .tea {
-                                               font-size: small;
-                                               align-self: center;
-                                               margin: 60px;
-                                               justify-content: center;
-                                           }
-                                           
-                                           .st {
-                                               font-weight: bolder;
-                                               font-size: 3rem;
-                                           }
-                                           
-                                           .teamn {
-                                               display: flex;
-                                               flex-direction: row;
-                                               align-items: center;
-                                               margin-bottom: 100px;
-                                           }
-                                           
-                                           .tesc {
-                                               height: 400px;
-                                               width: 300px;
-                                               display: flex;
-                                               justify-content: center;
-                                               flex-direction: column;
-                                               align-items: center;
-                                               background-color: var(--white);
-                                               color: var(--black);
-                                               margin: 25px;
-                                               border-radius: 5px;
-                                               box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
-                                               transition: all 0.3s;
-                                           }
-                                           
-                                           .tesc:hover {
-                                               background-color: #fc6a03;
-                                               color: aliceblue;
-                                           }
-                                           
-                                           .tesc i {
-                                               height: 30px;
-                                               width: 30px;
-                                               margin-top: 10px;
-                                               align-self: center;
-                                           }
-                                           
-                                           .tex {
-                                               font-size: medium;
-                                               font-weight: bolder;
-                                               align-self: center;
-                                               margin-top: 2px;
-                                               color: orangered;
-                                           }
-                                           
-                                           .img {
-                                               height: 200px;
-                                               width: 200px;
-                                               border-radius: 50%;
-                                               align-self: center;
-                                               margin-top: 30px;
-                                               padding: 20px;
-                                               border: 0.3px solid orangered;
-                                           }
-                                           
-                                           .capt {
-                                               margin-left: 20px;
-                                               margin-right: 20px;
-                                               margin-bottom: 20px;
-                                               font-size: smaller;
-                                               align-self: center;
-                                           }
-                                           /* end of our team*/
-                                           /*footer styling */
-                                           
-                                           .bottom {
-                                               position: relative;
-                                               left: 0;
-                                               bottom: 0;
-                                               width: 100%;
-                                               background-color: var(--white);
-                                               color: var(--orange);
-                                               text-align: center;
-                                               display: flex;
-                                               flex-direction: column;
-                                               height: 500px;
-                                               justify-content: space-around;
-                                               padding-top: 50px;
-                                           }
-                                           
-                                           .upperside {
-                                               display: flex;
-                                               flex-direction: row;
-                                               justify-content: space-around;
-                                           }
-                                           
-                                           .sec {
-                                               display: flex;
-                                               flex-direction: column;
-                                               justify-content: space-between;
-                                               align-items: flex-start;
-                                               margin-top: 40px;
-                                           }
-                                           
-                                           .sec i {
-                                               float: left;
-                                           }
-                                           
-                                           .sec i a {
-                                               text-decoration: none;
-                                               color: var(--black);
-                                               margin-left: 3px;
-                                           }
-                                           
-                                           .sec img {
-                                               height: 60px;
-                                               width: 60px;
-                                               align-self: center;
-                                           }
-                                           
-                                           .sec p {
-                                               align-self: center;
-                                           }
-                                           
-                                           .chat {
-                                               display: flex;
-                                               flex-direction: column;
-                                               height: 25px;
-                                               width: 100%;
-                                           }
-                                           
-                                           .CT {
-                                               background-color: var(--orange);
-                                               color: var(--white);
-                                               border-radius: 20px;
-                                               border: 0.31px;
-                                               padding: 10px;
-                                               height: auto;
-                                               width: 50%;
-                                               display: flex;
-                                               align-items: center;
-                                               margin-top: 20px;
-                                               justify-content: center;
-                                           }
-                                           
-                                           .CT input {
-                                               border-radius: 10px;
-                                               -webkit-border-radius: 10px;
-                                               -moz-border-radius: 10px;
-                                               -ms-border-radius: 10px;
-                                               -o-border-radius: 10px;
-                                           }
-                                           
-                                           .CT i a {
-                                               text-decoration: none;
-                                               color: var(--white);
-                                           }
-                                           
-                                           .lower {
-                                               display: flex;
-                                               align-items: center;
-                                               justify-content: center;
-                                               flex-direction: column;
-                                               color: var(--orange);
-                                               padding-top: 30px;
-                                           }
-                                           
-                                           .btnn {
-                                               background-color: var(--black);
-                                               color: var(--white);
-                                               border-radius: 30px;
-                                               width: 25%;
-                                               height: 40px;
-                                               display: flex;
-                                               align-items: center;
-                                               justify-content: center;
-                                           }
-                                           
-                                           .btnn h6 {
-                                               font-weight: bolder;
-                                               align-self: center;
-                                               font-size: small;
-                                               margin-top: 10px;
-                                           }
-                                           
-                                           .socialmedia {
-                                               margin-top: 10px;
-                                               display: flex;
-                                               justify-content: center;
-                                               width: 50%;
-                                               align-items: center;
-                                               flex-direction: row;
-                                           }
-                                           
-                                           .socialmedia {
-                                               color: var(--black);
-                                               padding-top: 20px;
-                                           }
-                                           
-                                           .socialmedia i a {
-                                               text-decoration: none;
-                                               color: var(--orange);
-                                               margin-left: 10px;
-                                               margin-right: 10px;
-                                           }
-                                           
-                                           @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-                                           * {
-                                               margin: 0;
-                                               padding: 0;
-                                               box-sizing: border-box;
-                                               font-family: 'Poppins', sans-serif;
-                                           }
-                                           
-                                           body {
-                                               display: flex;
-                                               flex-direction: column;
-                                               align-items: center;
-                                               justify-content: center;
-                                           }
-                                           
-                                           nav {
-                                               top: 0 px;
-                                               left: 0px;
-                                               display: flex;
-                                               flex-direction: row;
-                                               justify-content: center;
-                                               align-items: center;
-                                               background-color: transparent;
-                                               width: 100%;
-                                               padding: 10px;
-                                               z-index: 1;
-                                               margin-top: 30px;
-                                           }
-                                           
-                                           .logo {
-                                               font-size: 25px;
-                                               font-weight: bold;
-                                               color: var(--orange);
-                                               display: flex;
-                                               flex-direction: row;
-                                               justify-content: center;
-                                               align-items: center;
-                                               align-content: center;
-                                               margin-right: 50px;
-                                               padding-right: 40px;
-                                           }
-                                           
-                                           .logo img {
-                                               height: 50PX;
-                                               width: 50PX;
-                                               margin-right: 90px;
-                                           }
-                                           
-                                           .navb {
-                                               float: right;
-                                               list-style-type: none;
-                                               display: flex;
-                                               justify-content: center;
-                                               align-items: center;
-                                           }
-                                           
-                                           .navb li {
-                                               display: inline-block;
-                                               margin-left: 20px;
-                                           }
-                                           
-                                           .navb li a {
-                                               color: var(--orange);
-                                               text-decoration: none;
-                                               font-size: 25px;
-                                           }
-                                           
-                                           .navb li a:hover {
-                                               text-decoration: underline;
-                                               transition: 5sec ease-in;
-                                           }
-                                           /*body caption*/
-                                           
-                                           .caption {
-                                               width: 100%;
-                                               background-color: var(--white);
-                                               height: 500px;
-                                               display: flex;
-                                               flex-direction: row;
-                                               justify-content: center;
-                                               align-items: center;
-                                           }
-                                           
-                                           .textc {
-                                               display: flex;
-                                               flex-direction: row;
-                                               align-items: center;
-                                           }
-                                           
-                                           .aboutus {
-                                               background-color: var(--orange);
-                                               display: flex;
-                                               flex-direction: row;
-                                               height: 400px;
-                                           }
-                                           
-                                           .imageh {
-                                               height: 100px;
-                                               width: 100px;
-                                           }
-                                           /*service */
-                                           
-                                           .services {
-                                               height: 400px;
-                                               width: 100%;
-                                               display: flex;
-                                               flex-direction: row;
-                                               justify-content: center;
-                                               flex-wrap: wrap;
-                                               align-items: center;
-                                           }
-                                           
-                                           .sc {
-                                               height: 300px;
-                                               width: 300px;
-                                               background-color: #fc6a03;
-                                               margin: 10px;
-                                               border-radius: 20px;
-                                               display: flex;
-                                               align-items: center;
-                                               flex-wrap: wrap;
-                                               justify-content: center;
-                                           }
-                                           
-                                           .sc h5 {
-                                               margin: 30px;
-                                               color: aliceblue;
-                                               align-items: center;
-                                           }
-                                           
-                                           .service {
-                                               display: flex;
-                                               flex-direction: column;
-                                               align-items: center;
-                                               justify-content: center;
-                                               color: var(--orange);
-                                               border-radius: 10px;
-                                           }
-                                           
-                                           .header {
-                                               align-self: center;
-                                           }
-                                           
-                                           .blg {
-                                               display: flex;
-                                               flex-direction: row;
-                                               justify-content: center;
-                                               margin: 10px;
-                                               flex-wrap: wrap;
-                                           }
-                                           
-                                           .blg img {
-                                               height: 100px;
-                                               width: 100px;
-                                           }
-                                           
-                                           .txt {
-                                               display: flex;
-                                               flex-direction: column;
-                                           }
-                                           /*service page styling */
-                                           
-                                           .mid {
-                                               display: flex;
-                                               flex-direction: column;
-                                               align-items: center;
-                                               justify-content: space-around;
-                                               height: 500px;
-                                               width: 100%;
-                                           }
-                                           
-                                           .headr {
-                                               align-self: center;
-                                               font-weight: 200px;
-                                           }
-                                           
-                                           .single-text {
-                                               color: rgb(255, 255, 255);
-                                               font-size: xx-large;
-                                               font-weight: bolder;
-                                               height: 20px;
-                                           }
-                                           
-                                           .headr h1 {
-                                               font-weight: bolder;
-                                           }
-                                           
-                                           .serv {
-                                               display: flex;
-                                               flex-direction: row;
-                                               justify-content: space-evenly;
-                                               height: 400px;
-                                               width: 70%;
-                                           }
-                                           
-                                           .crd1 {
-                                               width: 330px;
-                                               display: flex;
-                                               flex-direction: column;
-                                               box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
-                                               align-items: center;
-                                               justify-content: space-around;
-                                               border-radius: 20px;
-                                               margin-right: 10px;
-                                           }
-                                           
-                                           .crd1 p {
-                                               align-self: center;
-                                               font-size: small;
-                                               align-content: center;
-                                               align-self: center;
-                                               margin: 20px;
-                                           }
-                                           
-                                           .crd1 h4 {
-                                               align-self: center;
-                                               font-weight: 100;
-                                               align-content: center;
-                                               margin: 20px;
-                                               color: var(--orange);
-                                           }
-                                           /*end of serive page */
-                                           /*footer styling */
-                                           
-                                           .bottom {
-                                               position: relative;
-                                               left: 0;
-                                               bottom: 0;
-                                               width: 100%;
-                                               background-color: var(--white);
-                                               color: var(--black);
-                                               text-align: center;
-                                               display: flex;
-                                               flex-direction: column;
-                                               height: 350px;
-                                               justify-content: space-around;
-                                               padding-top: 50px;
-                                           }
-                                           
-                                           .upperside {
-                                               display: flex;
-                                               flex-direction: row;
-                                               justify-content: space-around;
-                                           }
-                                           
-                                           .sec {
-                                               display: flex;
-                                               flex-direction: column;
-                                               justify-content: space-between;
-                                               align-items: flex-start;
-                                               margin-top: 40px;
-                                           }
-                                           
-                                           .sec i {
-                                               float: left;
-                                           }
-                                           
-                                           .sec i a {
-                                               text-decoration: none;
-                                               color: var(--black);
-                                               margin-left: 3px;
-                                           }
-                                           
-                                           .sec img {
-                                               height: 60px;
-                                               width: 60px;
-                                               align-self: center;
-                                           }
-                                           
-                                           .sec p {
-                                               align-self: center;
-                                           }
-                                           
-                                           .chat {
-                                               display: flex;
-                                               flex-direction: column;
-                                               height: 25px;
-                                               width: 100%;
-                                           }
-                                           
-                                           .CT {
-                                               background-color: var(--orange);
-                                               color: var(--white);
-                                               border-radius: 20px;
-                                               border: 0.31px;
-                                               padding: 10px;
-                                               height: auto;
-                                               width: 50%;
-                                               display: flex;
-                                               align-items: center;
-                                               margin-top: 20px;
-                                               justify-content: center;
-                                           }
-                                           
-                                           .CT input {
-                                               border-radius: 10px;
-                                               -webkit-border-radius: 10px;
-                                               -moz-border-radius: 10px;
-                                               -ms-border-radius: 10px;
-                                               -o-border-radius: 10px;
-                                           }
-                                           
-                                           .CT i a {
-                                               text-decoration: none;
-                                               color: var(--white);
-                                           }
-                                           
-                                           .lower {
-                                               display: flex;
-                                               align-items: center;
-                                               justify-content: center;
-                                               flex-direction: column;
-                                               color: var(--orange);
-                                               padding-top: 30px;
-                                           }
-                                           
-                                           .btnn {
-                                               background-color: var(--black);
-                                               color: var(--white);
-                                               border-radius: 30px;
-                                               width: 25%;
-                                               height: 40px;
-                                               display: flex;
-                                               align-items: center;
-                                               justify-content: center;
-                                           }
-                                           
-                                           .btnn h6 {
-                                               font-weight: bolder;
-                                               align-self: center;
-                                               font-size: small;
-                                               margin-top: 10px;
-                                           }
-                                           
-                                           .socialmedia {
-                                               margin-top: 10px;
-                                               display: flex;
-                                               justify-content: center;
-                                               width: 50%;
-                                               align-items: center;
-                                               flex-direction: row;
-                                           }
-                                           
-                                           .socialmedia {
-                                               color: var(--black);
-                                           }
-                                           
-                                           .socialmedia i a {
-                                               text-decoration: none;
-                                               color: var(--orange);
-                                               margin-left: 10px;
-                                               margin-right: 10px;
-                                           }
-                                           /*responsiveness*/
+                                              :root {
+                                                 --orange: #fc6a03;
+                                                 --white: #ffff;
+                                                 --black: #000;
+                                                 --backround1: grey;
+                                                 --shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+                                                 --lightorange: #FBCEB1;
+                                                 --dullorange: #FF7F50;
+                                             }
+                                             
+                                             @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+                                             * {
+                                                 margin: 0;
+                                                 padding: 0;
+                                                 box-sizing: border-box;
+                                                 font-family: 'Poppins', sans-serif;
+                                                 scroll-behavior: smooth;
+                                             }
+                                             /*test*/
+                                             /*end of test */
+                                             
+                                             body {
+                                                 display: flex;
+                                                 flex-direction: column;
+                                                 align-items: center;
+                                                 justify-content: center;
+                                             }
+                                             
+                                             nav {
+                                                 top: 0 px;
+                                                 left: 0px;
+                                                 display: flex;
+                                                 flex-direction: row;
+                                                 justify-content: center;
+                                                 align-items: center;
+                                                 background-color: transparent;
+                                                 width: 100%;
+                                                 padding: 10px;
+                                                 z-index: 1;
+                                                 margin-top: 30px;
+                                             }
+                                             
+                                             .logo {
+                                                 font-size: 25px;
+                                                 font-weight: bold;
+                                                 color: var(--orange);
+                                                 display: flex;
+                                                 flex-direction: row;
+                                                 justify-content: center;
+                                                 align-items: center;
+                                                 align-content: center;
+                                                 margin-right: 50px;
+                                                 padding-right: 40px;
+                                             }
+                                             
+                                             .logo img {
+                                                 height: 50PX;
+                                                 width: 50PX;
+                                                 margin-right: 90px;
+                                             }
+                                             
+                                             .navb {
+                                                 float: right;
+                                                 list-style-type: none;
+                                                 display: flex;
+                                                 justify-content: center;
+                                                 align-items: center;
+                                                 background-color: transparent;
+                                             }
+                                             
+                                             .navb li {
+                                                 display: inline-block;
+                                                 margin-left: 20px;
+                                                 background-color: transparent;
+                                             }
+                                             
+                                             .navb li a {
+                                                 color: var(--orange);
+                                                 text-decoration: none;
+                                                 font-size: 25px;
+                                                 background-color: transparent;
+                                             }
+                                             
+                                             .navb li a:hover {
+                                                 text-decoration: underline;
+                                                 transition: 5sec ease-in;
+                                             }
+                                             /*body caption*/
+                                             
+                                             .caption {
+                                                 width: 100%;
+                                                 background-color: var(--white);
+                                                 height: 500px;
+                                                 display: flex;
+                                                 flex-direction: row;
+                                                 justify-content: center;
+                                                 align-items: center;
+                                             }
+                                             
+                                             .textc {
+                                                 display: flex;
+                                                 flex-direction: row;
+                                                 align-items: center;
+                                             }
+                                             
+                                             .h {
+                                                 color: rgb(255, 255, 255);
+                                                 font-size: larger;
+                                                 background-color: var(--white);
+                                             }
+                                             
+                                             .aboutus {
+                                                 background-color: var(--orange);
+                                                 display: flex;
+                                                 flex-direction: row;
+                                                 height: 400px;
+                                             }
+                                             
+                                             .imageh {
+                                                 height: 100px;
+                                                 width: 100px;
+                                             }
+                                             /*service */
+                                             
+                                             .services {
+                                                 height: 400px;
+                                                 width: 100%;
+                                                 display: flex;
+                                                 flex-direction: row;
+                                                 justify-content: center;
+                                                 flex-wrap: wrap;
+                                                 align-items: center;
+                                             }
+                                             
+                                             .container-xl {
+                                                 margin-top: 50px;
+                                                 margin-bottom: 50px;
+                                             }
+                                             
+                                             .sc {
+                                                 height: 300px;
+                                                 width: 300px;
+                                                 background-color: #fc6a03;
+                                                 margin: 10px;
+                                                 border-radius: 20px;
+                                                 display: flex;
+                                                 align-items: center;
+                                                 flex-wrap: wrap;
+                                                 justify-content: center;
+                                             }
+                                             
+                                             .sc h5 {
+                                                 margin: 30px;
+                                                 color: aliceblue;
+                                                 align-items: center;
+                                             }
+                                             
+                                             .service {
+                                                 display: flex;
+                                                 flex-direction: column;
+                                                 align-items: center;
+                                                 justify-content: center;
+                                                 color: var(--orange);
+                                                 border-radius: 10px;
+                                             }
+                                             
+                                             .header {
+                                                 align-self: center;
+                                                 display: flex;
+                                                 flex-direction: column;
+                                             }
+                                             
+                                             .blg img {
+                                                 height: 100px;
+                                                 width: 100px;
+                                             }
+                                             
+                                             .txt {
+                                                 display: flex;
+                                                 flex-direction: column;
+                                             }
+                                             
+                                             .txt1 h3 {
+                                                 font-size: medium;
+                                                 font-weight: bolder;
+                                                 color: white;
+                                             }
+                                             
+                                             .txt p {
+                                                 font-size: smaller;
+                                                 color: white;
+                                             }
+                                             /*styling mid */
+                                             
+                                             .vission {
+                                                 width: 100%;
+                                                 display: flex;
+                                                 flex-direction: column;
+                                                 justify-content: center;
+                                                 height: 400px;
+                                                 align-items: center;
+                                             }
+                                             
+                                             .stat {
+                                                 font-weight: bolder;
+                                                 font-size: 4rems;
+                                                 color: orangered;
+                                             }
+                                             
+                                             .cover {
+                                                 display: flex;
+                                                 flex-direction: row;
+                                                 align-items: center;
+                                             }
+                                             
+                                             .firstdesc {
+                                                 height: 300px;
+                                                 width: 450px;
+                                                 display: flex;
+                                                 flex-direction: column;
+                                                 align-items: center;
+                                                 background-color: white;
+                                                 color: black;
+                                                 margin: 25px;
+                                                 border-radius: 5px;
+                                                 /*border: 0.9px solid black;*/
+                                                 box-shadow: 0px 0px 10px rgba(46, 45, 45, 0.3);
+                                             }
+                                             
+                                             .firstdesc i {
+                                                 height: 100px;
+                                                 width: 100px;
+                                                 margin-top: 30px;
+                                                 align-self: center;
+                                             }
+                                             
+                                             .firstdesc p {
+                                                 margin-bottom: 20px;
+                                                 margin-left: 20px;
+                                                 margin-right: 20px;
+                                                 font-size: smaller;
+                                             }
+                                             /*end of styling second mid */
+                                             /*our team*/
+                                             
+                                             .team {
+                                                 width: auto;
+                                                 display: flex;
+                                                 flex-direction: column;
+                                                 justify-content: center;
+                                                 height: 100vh;
+                                                 align-items: center;
+                                                 margin-top: 200px;
+                                                 flex-wrap: wrap;
+                                             }
+                                             
+                                             .tea {
+                                                 font-size: small;
+                                                 align-self: center;
+                                                 margin: 60px;
+                                                 justify-content: center;
+                                             }
+                                             
+                                             .st {
+                                                 font-weight: bolder;
+                                                 font-size: 3rem;
+                                             }
+                                             
+                                             .teamn {
+                                                 display: flex;
+                                                 flex-direction: row;
+                                                 align-items: center;
+                                                 margin-bottom: 100px;
+                                             }
+                                             
+                                             .tesc {
+                                                 height: 400px;
+                                                 width: 300px;
+                                                 display: flex;
+                                                 justify-content: center;
+                                                 flex-direction: column;
+                                                 align-items: center;
+                                                 background-color: var(--white);
+                                                 color: var(--black);
+                                                 margin: 25px;
+                                                 border-radius: 5px;
+                                                 box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+                                                 transition: all 0.3s;
+                                             }
+                                             
+                                             .tesc:hover {
+                                                 background-color: #fc6a03;
+                                                 color: aliceblue;
+                                             }
+                                             
+                                             .tesc i {
+                                                 height: 30px;
+                                                 width: 30px;
+                                                 margin-top: 10px;
+                                                 align-self: center;
+                                             }
+                                             
+                                             .tex {
+                                                 font-size: medium;
+                                                 font-weight: bolder;
+                                                 align-self: center;
+                                                 margin-top: 2px;
+                                                 color: orangered;
+                                             }
+                                             
+                                             .img {
+                                                 height: 200px;
+                                                 width: 200px;
+                                                 border-radius: 50%;
+                                                 align-self: center;
+                                                 margin-top: 30px;
+                                                 padding: 20px;
+                                                 border: 0.3px solid orangered;
+                                             }
+                                             
+                                             .capt {
+                                                 margin-left: 20px;
+                                                 margin-right: 20px;
+                                                 margin-bottom: 20px;
+                                                 font-size: smaller;
+                                                 align-self: center;
+                                             }
+                                             /* end of our team*/
+                                             /*footer styling */
+                                             
+                                             .bottom {
+                                                 position: relative;
+                                                 left: 0;
+                                                 bottom: 0;
+                                                 width: auto;
+                                                 background-color: var(--white);
+                                                 color: var(--orange);
+                                                 text-align: center;
+                                                 display: flex;
+                                                 flex-direction: column;
+                                                 height: 500px;
+                                                 justify-content: space-around;
+                                                 padding-top: 50px;
+                                             }
+                                             
+                                             .upperside {
+                                                 display: flex;
+                                                 flex-direction: row;
+                                                 justify-content: space-around;
+                                             }
+                                             
+                                             .sec {
+                                                 display: flex;
+                                                 flex-direction: column;
+                                                 justify-content: space-between;
+                                                 align-items: flex-start;
+                                                 margin-top: 40px;
+                                             }
+                                             
+                                             .sec i {
+                                                 float: left;
+                                             }
+                                             
+                                             .sec i a {
+                                                 text-decoration: none;
+                                                 color: var(--black);
+                                                 margin-left: 3px;
+                                             }
+                                             
+                                             .sec img {
+                                                 height: 60px;
+                                                 width: 60px;
+                                                 align-self: center;
+                                             }
+                                             
+                                             .sec p {
+                                                 align-self: center;
+                                             }
+                                             
+                                             .chat {
+                                                 display: flex;
+                                                 flex-direction: column;
+                                                 height: 25px;
+                                                 width: 100%;
+                                             }
+                                             
+                                             .CT {
+                                                 background-color: var(--orange);
+                                                 color: var(--white);
+                                                 border-radius: 20px;
+                                                 border: 0.31px;
+                                                 padding: 10px;
+                                                 height: auto;
+                                                 width: 50%;
+                                                 display: flex;
+                                                 align-items: center;
+                                                 margin-top: 20px;
+                                                 justify-content: center;
+                                             }
+                                             
+                                             .CT input {
+                                                 border-radius: 10px;
+                                                 -webkit-border-radius: 10px;
+                                                 -moz-border-radius: 10px;
+                                                 -ms-border-radius: 10px;
+                                                 -o-border-radius: 10px;
+                                             }
+                                             
+                                             .CT i a {
+                                                 text-decoration: none;
+                                                 color: var(--white);
+                                             }
+                                             
+                                             .lower {
+                                                 display: flex;
+                                                 align-items: center;
+                                                 justify-content: center;
+                                                 flex-direction: column;
+                                                 color: var(--orange);
+                                                 padding-top: 30px;
+                                             }
+                                             
+                                             .btnn {
+                                                 background-color: var(--black);
+                                                 color: var(--white);
+                                                 border-radius: 30px;
+                                                 width: 25%;
+                                                 height: 40px;
+                                                 display: flex;
+                                                 align-items: center;
+                                                 justify-content: center;
+                                             }
+                                             
+                                             .btnn h6 {
+                                                 font-weight: bolder;
+                                                 align-self: center;
+                                                 font-size: small;
+                                                 margin-top: 10px;
+                                             }
+                                             
+                                             .socialmedia {
+                                                 margin-top: 10px;
+                                                 display: flex;
+                                                 justify-content: center;
+                                                 width: 50%;
+                                                 align-items: center;
+                                                 flex-direction: row;
+                                             }
+                                             
+                                             .socialmedia {
+                                                 color: var(--black);
+                                                 padding-top: 20px;
+                                             }
+                                             
+                                             .socialmedia i a {
+                                                 text-decoration: none;
+                                                 color: var(--orange);
+                                                 margin-left: 10px;
+                                                 margin-right: 10px;
+                                             }
+                                             
+                                             @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+                                             * {
+                                                 margin: 0;
+                                                 padding: 0;
+                                                 box-sizing: border-box;
+                                                 font-family: 'Poppins', sans-serif;
+                                             }
+                                             
+                                             body {
+                                                 display: flex;
+                                                 flex-direction: column;
+                                                 align-items: center;
+                                                 justify-content: center;
+                                             }
+                                             
+                                             nav {
+                                                 top: 0 px;
+                                                 left: 0px;
+                                                 display: flex;
+                                                 flex-direction: row;
+                                                 justify-content: center;
+                                                 align-items: center;
+                                                 background-color: transparent;
+                                                 width: 100%;
+                                                 padding: 10px;
+                                                 z-index: 1;
+                                                 margin-top: 30px;
+                                             }
+                                             
+                                             .logo {
+                                                 font-size: 25px;
+                                                 font-weight: bold;
+                                                 color: var(--orange);
+                                                 display: flex;
+                                                 flex-direction: row;
+                                                 justify-content: center;
+                                                 align-items: center;
+                                                 align-content: center;
+                                                 margin-right: 50px;
+                                                 padding-right: 40px;
+                                             }
+                                             
+                                             .logo img {
+                                                 height: 50PX;
+                                                 width: 50PX;
+                                                 margin-right: 90px;
+                                             }
+                                             
+                                             .navb {
+                                                 float: right;
+                                                 list-style-type: none;
+                                                 display: flex;
+                                                 justify-content: center;
+                                                 align-items: center;
+                                             }
+                                             
+                                             .navb li {
+                                                 display: inline-block;
+                                                 margin-left: 20px;
+                                             }
+                                             
+                                             .navb li a {
+                                                 color: var(--orange);
+                                                 text-decoration: none;
+                                                 font-size: 25px;
+                                             }
+                                             
+                                             .navb li a:hover {
+                                                 text-decoration: underline;
+                                                 transition: 5sec ease-in;
+                                             }
+                                             /*body caption*/
+                                             
+                                             .caption {
+                                                 width: 100%;
+                                                 background-color: var(--white);
+                                                 height: 500px;
+                                                 display: flex;
+                                                 flex-direction: row;
+                                                 justify-content: center;
+                                                 align-items: center;
+                                             }
+                                             
+                                             .textc {
+                                                 display: flex;
+                                                 flex-direction: row;
+                                                 align-items: center;
+                                             }
+                                             
+                                             .aboutus {
+                                                 background-color: var(--orange);
+                                                 display: flex;
+                                                 flex-direction: row;
+                                                 height: 400px;
+                                             }
+                                             
+                                             .imageh {
+                                                 height: 100px;
+                                                 width: 100px;
+                                             }
+                                             /*service */
+                                             
+                                             .services {
+                                                 height: 400px;
+                                                 width: 100%;
+                                                 display: flex;
+                                                 flex-direction: row;
+                                                 justify-content: center;
+                                                 flex-wrap: wrap;
+                                                 align-items: center;
+                                             }
+                                             
+                                             .sc {
+                                                 height: 300px;
+                                                 width: 300px;
+                                                 background-color: #fc6a03;
+                                                 margin: 10px;
+                                                 border-radius: 20px;
+                                                 display: flex;
+                                                 align-items: center;
+                                                 flex-wrap: wrap;
+                                                 justify-content: center;
+                                             }
+                                             
+                                             .sc h5 {
+                                                 margin: 30px;
+                                                 color: aliceblue;
+                                                 align-items: center;
+                                             }
+                                             
+                                             .service {
+                                                 display: flex;
+                                                 flex-direction: column;
+                                                 align-items: center;
+                                                 justify-content: center;
+                                                 color: var(--orange);
+                                                 border-radius: 10px;
+                                             }
+                                             
+                                             .header {
+                                                 align-self: center;
+                                             }
+                                             
+                                             .blg {
+                                                 display: flex;
+                                                 flex-direction: row;
+                                                 justify-content: center;
+                                                 margin: 10px;
+                                                 flex-wrap: wrap;
+                                             }
+                                             
+                                             .blg img {
+                                                 height: 100px;
+                                                 width: 100px;
+                                             }
+                                             
+                                             .txt {
+                                                 display: flex;
+                                                 flex-direction: column;
+                                             }
+                                             /*service page styling */
+                                             
+                                             .mid {
+                                                 display: flex;
+                                                 flex-direction: column;
+                                                 align-items: center;
+                                                 justify-content: space-around;
+                                                 height: 500px;
+                                                 width: 100%;
+                                             }
+                                             
+                                             .headr {
+                                                 align-self: center;
+                                                 font-weight: 200px;
+                                             }
+                                             
+                                             .single-text {
+                                                 color: rgb(255, 255, 255);
+                                                 font-size: xx-large;
+                                                 font-weight: bolder;
+                                                 height: 20px;
+                                             }
+                                             
+                                             .headr h1 {
+                                                 font-weight: bolder;
+                                             }
+                                             
+                                             .serv {
+                                                 display: flex;
+                                                 flex-direction: row;
+                                                 justify-content: space-evenly;
+                                                 height: 400px;
+                                                 width: 70%;
+                                             }
+                                             
+                                             .crd1 {
+                                                 width: 330px;
+                                                 display: flex;
+                                                 flex-direction: column;
+                                                 box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+                                                 align-items: center;
+                                                 justify-content: space-around;
+                                                 border-radius: 20px;
+                                                 margin-right: 10px;
+                                             }
+                                             
+                                             .crd1 p {
+                                                 align-self: center;
+                                                 font-size: small;
+                                                 align-content: center;
+                                                 align-self: center;
+                                                 margin: 20px;
+                                             }
+                                             
+                                             .crd1 h4 {
+                                                 align-self: center;
+                                                 font-weight: 100;
+                                                 align-content: center;
+                                                 margin: 20px;
+                                                 color: var(--orange);
+                                             }
+                                             /*end of serive page */
+                                             /*footer styling */
+                                             
+                                             .bottom {
+                                                 position: relative;
+                                                 left: 0;
+                                                 bottom: 0;
+                                                 width: 100%;
+                                                 background-color: var(--white);
+                                                 color: var(--black);
+                                                 text-align: center;
+                                                 display: flex;
+                                                 flex-direction: column;
+                                                 height: 350px;
+                                                 justify-content: space-around;
+                                                 padding-top: 50px;
+                                             }
+                                             
+                                             .upperside {
+                                                 display: flex;
+                                                 flex-direction: row;
+                                                 justify-content: space-around;
+                                             }
+                                             
+                                             .sec {
+                                                 display: flex;
+                                                 flex-direction: column;
+                                                 justify-content: space-between;
+                                                 align-items: flex-start;
+                                                 margin-top: 40px;
+                                             }
+                                             
+                                             .sec i {
+                                                 float: left;
+                                             }
+                                             
+                                             .sec i a {
+                                                 text-decoration: none;
+                                                 color: var(--black);
+                                                 margin-left: 3px;
+                                             }
+                                             
+                                             .sec img {
+                                                 height: 60px;
+                                                 width: 60px;
+                                                 align-self: center;
+                                             }
+                                             
+                                             .sec p {
+                                                 align-self: center;
+                                             }
+                                             
+                                             .chat {
+                                                 display: flex;
+                                                 flex-direction: column;
+                                                 height: 25px;
+                                                 width: 100%;
+                                             }
+                                             
+                                             .CT {
+                                                 background-color: var(--orange);
+                                                 color: var(--white);
+                                                 border-radius: 20px;
+                                                 border: 0.31px;
+                                                 padding: 10px;
+                                                 height: auto;
+                                                 width: 50%;
+                                                 display: flex;
+                                                 align-items: center;
+                                                 margin-top: 20px;
+                                                 justify-content: center;
+                                             }
+                                             
+                                             .CT input {
+                                                 border-radius: 10px;
+                                                 -webkit-border-radius: 10px;
+                                                 -moz-border-radius: 10px;
+                                                 -ms-border-radius: 10px;
+                                                 -o-border-radius: 10px;
+                                             }
+                                             
+                                             .CT i a {
+                                                 text-decoration: none;
+                                                 color: var(--white);
+                                             }
+                                             
+                                             .lower {
+                                                 display: flex;
+                                                 align-items: center;
+                                                 justify-content: center;
+                                                 flex-direction: column;
+                                                 color: var(--orange);
+                                                 padding-top: 30px;
+                                             }
+                                             
+                                             .btnn {
+                                                 background-color: var(--black);
+                                                 color: var(--white);
+                                                 border-radius: 30px;
+                                                 width: 25%;
+                                                 height: 40px;
+                                                 display: flex;
+                                                 align-items: center;
+                                                 justify-content: center;
+                                             }
+                                             
+                                             .btnn h6 {
+                                                 font-weight: bolder;
+                                                 align-self: center;
+                                                 font-size: small;
+                                                 margin-top: 10px;
+                                             }
+                                             
+                                             .socialmedia {
+                                                 margin-top: 10px;
+                                                 display: flex;
+                                                 justify-content: center;
+                                                 width: 50%;
+                                                 align-items: center;
+                                                 flex-direction: row;
+                                             }
+                                             
+                                             .socialmedia {
+                                                 color: var(--black);
+                                             }
+                                             
+                                             .socialmedia i a {
+                                                 text-decoration: none;
+                                                 color: var(--orange);
+                                                 margin-left: 10px;
+                                                 margin-right: 10px;
+                                             }
+                                             /*responsiveness*/

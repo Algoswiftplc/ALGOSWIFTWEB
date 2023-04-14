@@ -748,198 +748,42 @@ nav {
 
 /*service page styling */
 
-.mid {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    height: 500px;
-    width: 100%;
-}
-
-.headr {
-    align-self: center;
-    font-weight: 200px;
-}
-
-.single-text {
-    color: rgb(255, 255, 255);
-    font-size: xx-large;
-    font-weight: bolder;
-    height: 20px;
-}
-
-.headr h1 {
-    font-weight: bolder;
-}
-
-.serv {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: 400px;
-    width: 70%;
-}
-
-.crd1 {
-    width: 330px;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
-    align-items: center;
-    justify-content: space-around;
-    border-radius: 20px;
-    margin-right: 10px;
-}
-
-.crd1 p {
-    align-self: center;
-    font-size: small;
-    align-content: center;
-    align-self: center;
-    margin: 20px;
-}
-
-.crd1 h4 {
-    align-self: center;
-    font-weight: 100;
-    align-content: center;
-    margin: 20px;
-    color: var(--orange);
-}
-
 
 /*end of serive page */
+
+.text-center {
+    animation: fade-in 1s ease-in;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#link li a {
+    text-decoration: none;
+    text-style: none;
+}
 
 
 /*footer styling */
 
-.bottom {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: var(--white);
-    color: var(--black);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    height: 350px;
-    justify-content: space-around;
-    padding-top: 50px;
-}
-
-.upperside {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.sec {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-top: 40px;
-}
-
-.sec i {
-    float: left;
-}
-
-.sec i a {
+.card-body a {
+    color: orange-red;
     text-decoration: none;
-    color: var(--black);
-    margin-left: 3px;
 }
 
-.sec img {
-    height: 60px;
-    width: 60px;
-    align-self: center;
+.card-body a:hover {
+    color: white;
 }
 
-.sec p {
-    align-self: center;
-}
-
-.chat {
-    display: flex;
-    flex-direction: column;
-    height: 25px;
-    width: 100%;
-}
-
-.CT {
-    background-color: var(--orange);
-    color: var(--white);
-    border-radius: 20px;
-    border: 0.31px;
-    padding: 10px;
-    height: auto;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-    justify-content: center;
-}
-
-.CT input {
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
-
-.CT i a {
-    text-decoration: none;
-    color: var(--white);
-}
-
-.lower {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: var(--orange);
-    padding-top: 30px;
-}
-
-.btnn {
-    background-color: var(--black);
-    color: var(--white);
-    border-radius: 30px;
-    width: 25%;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.btnn h6 {
-    font-weight: bolder;
-    align-self: center;
-    font-size: small;
-    margin-top: 10px;
-}
-
-.socialmedia {
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    align-items: center;
-    flex-direction: row;
-}
-
-.socialmedia {
-    color: var(--black);
-}
-
-.socialmedia i a {
-    text-decoration: none;
-    color: var(--orange);
-    margin-left: 10px;
-    margin-right: 10px;
+.btn-primary {
+    background-color: #ff4500;
+    /* this is the hex code for orange-red */
+    border-color: #ff4500;
+    /* this will give the button a matching border color */
 }
